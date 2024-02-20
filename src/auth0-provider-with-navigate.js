@@ -26,7 +26,7 @@ export const Auth0ProviderWithNavigate = ({ children }) => {
       clientId={clientId}
       redirectUri={redirectUri}
       onRedirectCallback={onRedirectCallback}
-    > HELLOOOOOO
+    >
       {children}
     </Auth0Provider>
   );
